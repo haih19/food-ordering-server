@@ -1,7 +1,7 @@
-import express, { Application } from 'express';
-import { router } from './routes';
-import { appRoutes } from './routes/routePath';
+import { router } from '@/routes';
+import { appRoutes } from '@/routes/routePath';
 import cors from 'cors';
+import express, { Application } from 'express';
 
 export const app: Application = express();
 
